@@ -20,14 +20,14 @@ plugins {
 
 android {
     namespace = "me.aite.nlmcf"
-    compileSdk = 36
+    compileSdk = 37
     enableKotlin = false
     buildToolsVersion = "37.0.0"
 
     defaultConfig {
         applicationId = "me.aite.nlmcf"
         minSdk = 31
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0.0"
     }
