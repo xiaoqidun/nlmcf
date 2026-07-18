@@ -4,6 +4,11 @@
 # 实测机型
 Z80 Ultra（NebulaAIOS2.0.26MR_NX741J）
 
+# 使用说明
+1. 安装APK，并在LSPosed中启用模块。
+2. 确认模块作用域仅包含“系统界面（`com.android.systemui`）”，并重启手机使模块生效。
+3. 在系统设置中切换“在锁定的屏幕上显示媒体”：关闭时隐藏锁屏媒体，开启时显示锁屏媒体。
+
 # 构建说明
 ```batch
 set "JAVA_HOME=C:\Program Files\Android\Android Studio\jbr"
